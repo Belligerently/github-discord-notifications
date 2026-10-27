@@ -123,7 +123,7 @@
     "https://github.com/filippocalippo/StykAnimate-App/pull/20": {
       "assignees": [],
       "checks": [],
-      "comments": 3,
+      "comments": 6,
       "draft": false,
       "head": "2b78869d2f71d2b4222bf0ecac53665f520d5b30",
       "kind": "PR",
@@ -139,12 +139,17 @@
           5655417209,
           "CHANGES_REQUESTED",
           "2026-10-26T16:26:54Z"
+        ],
+        [
+          5662473776,
+          "APPROVED",
+          "2026-10-27T05:08:33Z"
         ]
       ],
       "state": "open",
       "status": [],
       "title": "Add connected-figure selection with native lock guardrails",
-      "updated_at": "2026-10-26T16:55:58Z"
+      "updated_at": "2026-10-27T05:24:00Z"
     },
     "https://github.com/filippocalippo/StykAnimate-App/pull/32": {
       "assignees": [],
@@ -295,7 +300,31 @@
       "assignees": [],
       "checks": [
         [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:build-macos-26",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "success"
+        ],
+        [
           "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
           "success"
         ]
       ],
@@ -309,7 +338,18 @@
         "test"
       ],
       "review_comments": 0,
-      "reviews": [],
+      "reviews": [
+        [
+          5662498621,
+          "APPROVED",
+          "2026-10-27T05:11:55Z"
+        ],
+        [
+          5662503129,
+          "CHANGES_REQUESTED",
+          "2026-10-27T05:12:28Z"
+        ]
+      ],
       "state": "open",
       "status": [
         [
@@ -318,7 +358,7 @@
         ]
       ],
       "title": "fix(profiles): preserve Space associations in single exports",
-      "updated_at": "2026-10-23T19:39:49Z"
+      "updated_at": "2026-10-27T05:12:28Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
