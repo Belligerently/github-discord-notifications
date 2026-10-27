@@ -24,3 +24,13 @@ Run `python3 -m unittest -v`. The monitor uses only the Python standard library.
 
 Delivery is best effort: a crash after Discord accepts a message but before state is pushed can produce a duplicate on retry. API/search failures stop the run rather than silently dropping updates.
 
+
+## Phone and Pixel Watch alerts with ntfy
+
+Subscribe in the ntfy Android app to a long, random topic on https://ntfy.sh. Store that topic in the repository Actions secret `NTFY_TOPIC`; never commit it. Enable Android notification permission for ntfy, and enable ntfy in the Pixel Watch companion app's notification settings.
+
+The monitor sends high-priority ntfy notifications with a link to the GitHub item. The ntfy topic receives both issue and PR updates. Discord retains separate channels and role mentions.
+
+ntfy and Discord each have their own delivery snapshots on the `monitor-state` branch. A delivery failure in one does not prevent the other from advancing; the failed destination retries on a later run. The first ntfy run creates a quiet baseline.
+
+For a connection test, run the workflow with **Send a phone/watch test through ntfy only** selected. Public ntfy topics are unprotected: anyone who knows the random topic can read or publish to it. The monitor sends only public GitHub metadata.
