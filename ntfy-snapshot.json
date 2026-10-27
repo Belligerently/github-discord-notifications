@@ -1,0 +1,344 @@
+{
+  "initialized": true,
+  "items": {
+    "https://github.com/Belligerently/appleblox-native/pull/1": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:plan",
+          "success"
+        ],
+        [
+          "15368:release",
+          "skipped"
+        ],
+        [
+          "15368:validate",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": true,
+      "head": "ac391715b9dc8850834dbce7c19533f0fdcd039f",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Add native SwiftUI launcher features and automated releases",
+      "updated_at": "2026-10-26T17:06:28Z"
+    },
+    "https://github.com/Belligerently/github-discord-notifications/pull/1": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "6a52ee8e59f1142caebf3baac9ef04b46832518d",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Test Discord PR notification",
+      "updated_at": "2026-10-27T02:04:51Z"
+    },
+    "https://github.com/Belligerently/github-discord-notifications/pull/2": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "4fe6463cb6b612ea2de6b8e22a383b3c2c215cd2",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Add ntfy phone and Pixel Watch notifications",
+      "updated_at": "2026-10-27T02:22:12Z"
+    },
+    "https://github.com/SpecMatrix-App/SpecMatrix/pull/1": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "e3df285da038dd1c52e2f666720be4e7f3640afa",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Add expected update notice for January 2027",
+      "updated_at": "2026-10-11T18:30:09Z"
+    },
+    "https://github.com/SpecMatrix-App/SpecMatrix/pull/2": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build-and-test",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "48669623537f24d53823aee4bb407929c46e60e7",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Update README.md",
+      "updated_at": "2026-10-18T01:50:55Z"
+    },
+    "https://github.com/filippocalippo/StykAnimate-App/issues/14": {
+      "assignees": [],
+      "comments": 0,
+      "kind": "Issue",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open",
+      "title": "Add Apple Silicon macOS desktop support",
+      "updated_at": "2026-10-22T19:29:55Z"
+    },
+    "https://github.com/filippocalippo/StykAnimate-App/pull/15": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "7cd8637f18c6bc019ca72aa7e631757b64780694",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "closed",
+      "status": [],
+      "title": "Support Apple Silicon Macs as a local, ad hoc signed build",
+      "updated_at": "2026-10-23T02:46:00Z"
+    },
+    "https://github.com/filippocalippo/StykAnimate-App/pull/20": {
+      "assignees": [],
+      "checks": [],
+      "comments": 3,
+      "draft": false,
+      "head": "2b78869d2f71d2b4222bf0ecac53665f520d5b30",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5647546477,
+          "CHANGES_REQUESTED",
+          "2026-10-26T04:52:00Z"
+        ],
+        [
+          5655417209,
+          "CHANGES_REQUESTED",
+          "2026-10-26T16:26:54Z"
+        ]
+      ],
+      "state": "open",
+      "status": [],
+      "title": "Add connected-figure selection with native lock guardrails",
+      "updated_at": "2026-10-26T16:55:58Z"
+    },
+    "https://github.com/filippocalippo/StykAnimate-App/pull/32": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "bdb60934a826d9183bf3f8545c022c177c2712db",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Add set-based selection commands to the Rust engine",
+      "updated_at": "2026-10-26T02:09:29Z"
+    },
+    "https://github.com/filippocalippo/StykAnimate-App/pull/33": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "778c565f0391bbea4a7f56ca503a1b2a7529aff0",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Keep shortcut labels consistent with the configured platform",
+      "updated_at": "2026-10-26T14:11:10Z"
+    },
+    "https://github.com/llsc12/Paicord/issues/56": {
+      "assignees": [],
+      "comments": 6,
+      "kind": "Issue",
+      "labels": [],
+      "state": "open",
+      "title": "History not fully visible",
+      "updated_at": "2026-10-08T02:03:53Z"
+    },
+    "https://github.com/openfrontio/OpenFrontIO/issues/6160": {
+      "assignees": [],
+      "comments": 1,
+      "kind": "Issue",
+      "labels": [
+        "not-approved"
+      ],
+      "state": "open",
+      "title": "Troubleshooting button in Help has no text",
+      "updated_at": "2026-10-26T20:55:12Z"
+    },
+    "https://github.com/openfrontio/OpenFrontIO/issues/6169": {
+      "assignees": [],
+      "comments": 1,
+      "kind": "Issue",
+      "labels": [
+        "not-approved"
+      ],
+      "state": "open",
+      "title": "Keybinding controls can't be activated with the keyboard",
+      "updated_at": "2026-10-27T01:19:26Z"
+    },
+    "https://github.com/storytold/craft-launcher/pull/616": {
+      "assignees": [],
+      "checks": [],
+      "comments": 2,
+      "draft": false,
+      "head": "d91e5e654de07c3e09aea494359a74ef0f3a6968",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 13,
+      "reviews": [
+        [
+          5565556777,
+          "COMMENTED",
+          "2026-10-18T23:25:56Z"
+        ],
+        [
+          5565638856,
+          "COMMENTED",
+          "2026-10-18T23:40:30Z"
+        ],
+        [
+          5565641016,
+          "COMMENTED",
+          "2026-10-18T23:40:52Z"
+        ],
+        [
+          5565646742,
+          "COMMENTED",
+          "2026-10-18T23:41:50Z"
+        ],
+        [
+          5565652444,
+          "COMMENTED",
+          "2026-10-18T23:42:51Z"
+        ],
+        [
+          5565686278,
+          "COMMENTED",
+          "2026-10-18T23:48:41Z"
+        ],
+        [
+          5565716149,
+          "COMMENTED",
+          "2026-10-18T23:54:02Z"
+        ],
+        [
+          5565719283,
+          "COMMENTED",
+          "2026-10-18T23:55:00Z"
+        ],
+        [
+          5587422936,
+          "COMMENTED",
+          "2026-10-20T15:30:17Z"
+        ],
+        [
+          5587432528,
+          "COMMENTED",
+          "2026-10-20T15:30:53Z"
+        ]
+      ],
+      "state": "open",
+      "status": [
+        [
+          "CodeRabbit",
+          "success"
+        ]
+      ],
+      "title": "feat(install): app/system default in the Install dialog, free-space warning, install location in details",
+      "updated_at": "2026-10-20T15:30:53Z"
+    },
+    "https://github.com/thaw-app/Thaw/issues/1384": {
+      "assignees": [],
+      "comments": 2,
+      "kind": "Issue",
+      "labels": [
+        "macos-27",
+        "needs-info",
+        "profiles"
+      ],
+      "state": "open",
+      "title": "[Bug] Exporting one profile drops its Space association",
+      "updated_at": "2026-10-23T19:25:47Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1385": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:metadata",
+          "success"
+        ]
+      ],
+      "comments": 2,
+      "draft": false,
+      "head": "b1e380806044b59687f2f2d15ef7d51f42a0bf5a",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [
+        [
+          "CodeRabbit",
+          "success"
+        ]
+      ],
+      "title": "fix(profiles): preserve Space associations in single exports",
+      "updated_at": "2026-10-23T19:39:49Z"
+    },
+    "https://github.com/voxa-org/Voxa/issues/40": {
+      "assignees": [],
+      "comments": 0,
+      "kind": "Issue",
+      "labels": [],
+      "state": "open",
+      "title": "Custom CSS",
+      "updated_at": "2025-06-18T03:43:06Z"
+    },
+    "https://github.com/yapfast/yapfast/issues/42": {
+      "assignees": [],
+      "comments": 1,
+      "kind": "Issue",
+      "labels": [],
+      "state": "open",
+      "title": "MacOS Support",
+      "updated_at": "2026-10-26T02:31:50Z"
+    }
+  },
+  "last_successful_check_date": "2026-10-27",
+  "version": 1
+}

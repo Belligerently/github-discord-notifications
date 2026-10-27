@@ -44,6 +44,21 @@
       "title": "Test Discord PR notification",
       "updated_at": "2026-10-27T02:04:51Z"
     },
+    "https://github.com/Belligerently/github-discord-notifications/pull/2": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "4fe6463cb6b612ea2de6b8e22a383b3c2c215cd2",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Add ntfy phone and Pixel Watch notifications",
+      "updated_at": "2026-10-27T02:22:12Z"
+    },
     "https://github.com/SpecMatrix-App/SpecMatrix/pull/1": {
       "assignees": [],
       "checks": [],
