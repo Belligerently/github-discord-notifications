@@ -16,8 +16,9 @@ class APIError(RuntimeError):
 
 
 def request_json(url, *, token=None, payload=None):
-    headers = {"User-Agent": "github-discord-monitor", "Accept": "application/vnd.github+json"}
+    headers = {"User-Agent": "github-discord-monitor", "Accept": "application/json"}
     if token:
+        headers["Accept"] = "application/vnd.github+json"
         headers["Authorization"] = f"Bearer {token}"
         headers["X-GitHub-Api-Version"] = "2022-11-28"
     data = None
@@ -162,6 +163,22 @@ def discord_sender(webhook, role_id=""):
     return send
 
 
+def ntfy_sender(topic):
+    if not re.fullmatch(r"[A-Za-z0-9_-]{20,128}", topic):
+        raise ValueError("Expected a long random ntfy topic")
+
+    def send(title, description, url=None, *, kind):
+        payload = {
+            "topic": topic, "title": title[:256], "message": description[:3500],
+            "priority": 4,
+            "tags": ["twisted_rightwards_arrows" if kind == "PR" else "speech_balloon"],
+        }
+        if url:
+            payload["click"] = url
+        request_json("https://ntfy.sh/", payload=payload)
+    return send
+
+
 def run(client, send, path):
     state = json.loads(path.read_text()) if path.exists() else {"version": 1, "items": {}, "initialized": False}
     if state.get("version") != 1 or not isinstance(state.get("items"), dict):
@@ -200,7 +217,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--test", action="store_true", help="Send a connection test without changing the baseline")
     parser.add_argument("--state", default="state/snapshot.json")
+    parser.add_argument("--ntfy-only", action="store_true", help="Use ntfy with its own delivery state")
     args = parser.parse_args()
+    if args.ntfy_only:
+        send = ntfy_sender(os.environ["NTFY_TOPIC"])
+        if args.test:
+            send("GitHub watch notifications connected", "Your public GitHub updates will appear here.", kind="Issue")
+        else:
+            run(GitHub(os.environ.get("GITHUB_TOKEN")), send, Path(args.state))
+        return
     routes = {
         "Issue": discord_sender(os.environ["ISSUES_WEBHOOK_URL"], os.environ["ISSUES_ROLE_ID"]),
         "PR": discord_sender(os.environ["PRS_WEBHOOK_URL"], os.environ["PRS_ROLE_ID"]),

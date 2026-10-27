@@ -9,6 +9,10 @@ on:
         description: Send a test notification to both Discord channels
         type: boolean
         default: false
+      send_ntfy_test:
+        description: Send a phone/watch test through ntfy only
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,6 +27,7 @@ jobs:
     timeout-minutes: 8
     env:
       GH_USERNAME: Belligerently
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       ISSUES_ROLE_ID: '1564451806325768364'
       PRS_ROLE_ID: '1564451861111635978'
     steps:
@@ -55,13 +60,25 @@ jobs:
           ISSUES_WEBHOOK_URL: ${{ secrets.ISSUES_WEBHOOK_URL }}
           PRS_WEBHOOK_URL: ${{ secrets.PRS_WEBHOOK_URL }}
         run: python3 monitor.py --state state-store/snapshot.json
+      - name: Send ntfy connection test when requested
+        if: ${{ !cancelled() && github.event_name == 'workflow_dispatch' && (inputs.send_test || inputs.send_ntfy_test) && env.NTFY_TOPIC != '' }}
+        run: python3 monitor.py --ntfy-only --test
+      - name: Check contributions for phone and watch
+        if: ${{ !cancelled() && env.NTFY_TOPIC != '' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 monitor.py --ntfy-only --state state-store/ntfy-snapshot.json
       - name: Persist successful deliveries
         if: always()
         shell: bash
         run: |
           set -euo pipefail
-          if [ ! -f state-store/snapshot.json ]; then exit 0; fi
-          git -C state-store add snapshot.json
+          if [ ! -e state-store/.git ]; then exit 0; fi
+          for snapshot in snapshot.json ntfy-snapshot.json; do
+            if [ -f "state-store/$snapshot" ]; then
+              git -C state-store add "$snapshot"
+            fi
+          done
           if ! git -C state-store diff --cached --quiet; then
             git -C state-store commit -m 'Record notification state'
             git -C state-store push origin HEAD:refs/heads/monitor-state
