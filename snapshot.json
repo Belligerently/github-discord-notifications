@@ -308,9 +308,9 @@
           "skipped"
         ]
       ],
-      "comments": 2,
+      "comments": 3,
       "draft": false,
-      "head": "8325f69baea7c3b0d93433dd567ee7953eee5374",
+      "head": "e071e512242b9a6ceca83ef675938ad9f66ff628",
       "kind": "PR",
       "labels": [
         "fix",
@@ -333,7 +333,7 @@
       "state": "open",
       "status": [],
       "title": "fix(profiles): preserve Space associations in single exports",
-      "updated_at": "2026-10-27T10:57:34Z"
+      "updated_at": "2026-10-27T15:24:45Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
