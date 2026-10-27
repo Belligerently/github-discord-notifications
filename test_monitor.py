@@ -4,7 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
-from monitor import GitHub, changes, discord_sender, main, run
+from monitor import GitHub, changes, discord_sender, main, ntfy_sender, run
 
 
 def snapshot(kind="Issue"):
@@ -119,6 +119,52 @@ class MonitorTests(unittest.TestCase):
                 self.assertEqual(pr_call.args[0], environment["PRS_WEBHOOK_URL"] + "?wait=true")
                 self.assertEqual(issue_call.kwargs["payload"]["content"], "<@&456>")
                 self.assertEqual(pr_call.kwargs["payload"]["content"], "<@&987>")
+
+    def test_ntfy_sends_high_priority_json_to_root_endpoint(self):
+        with patch("monitor.request_json") as request:
+            send = ntfy_sender("a-long-random-topic-for-tests")
+            send("PR updated", "New review", "https://github.com/example/project/pull/1", kind="PR")
+            self.assertEqual(request.call_args.args[0], "https://ntfy.sh/")
+            payload = request.call_args.kwargs["payload"]
+            self.assertEqual(payload["priority"], 4)
+            self.assertEqual(payload["click"], "https://github.com/example/project/pull/1")
+            self.assertEqual(payload["topic"], "a-long-random-topic-for-tests")
+
+    def test_ntfy_mode_works_without_discord_credentials(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "ntfy-snapshot.json"
+            client = Mock()
+            client.contributions.return_value = [{"html_url": "https://github.com/example/project/issues/1"}]
+            client.snapshot.side_effect = [snapshot(), dict(snapshot(), labels=["approved"])]
+            with patch.dict("os.environ", {"NTFY_TOPIC": "a-long-random-topic-for-tests"}, clear=True), \
+                    patch("sys.argv", ["monitor.py", "--ntfy-only", "--state", str(path)]), \
+                    patch("monitor.GitHub", return_value=client), \
+                    patch("monitor.request_json") as request:
+                main()
+                request.assert_not_called()
+                main()
+                request.assert_called_once()
+                self.assertIn("Labels: approved", request.call_args.kwargs["payload"]["message"])
+
+    def test_ntfy_failure_does_not_modify_discord_state(self):
+        with tempfile.TemporaryDirectory() as directory:
+            discord_path = Path(directory) / "snapshot.json"
+            ntfy_path = Path(directory) / "ntfy-snapshot.json"
+            client = Mock()
+            client.contributions.return_value = [{"html_url": "https://github.com/example/project/issues/1"}]
+            client.snapshot.return_value = snapshot()
+            run(client, Mock(), discord_path)
+            run(client, Mock(), ntfy_path)
+            client.snapshot.return_value = dict(snapshot(), comments=1)
+            run(client, Mock(), discord_path)
+            discord_saved = discord_path.read_text()
+            failing_ntfy = Mock(side_effect=RuntimeError("offline"))
+            with self.assertRaises(RuntimeError):
+                run(client, failing_ntfy, ntfy_path)
+            self.assertEqual(discord_path.read_text(), discord_saved)
+            successful_ntfy = Mock()
+            run(client, successful_ntfy, ntfy_path)
+            successful_ntfy.assert_called_once()
 
     def test_rejects_non_discord_webhook(self):
         with self.assertRaises(ValueError):
