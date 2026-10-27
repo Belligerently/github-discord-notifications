@@ -300,37 +300,17 @@
       "assignees": [],
       "checks": [
         [
-          "15368:build",
-          "success"
-        ],
-        [
-          "15368:build-macos-26",
-          "success"
-        ],
-        [
-          "15368:changes",
-          "success"
-        ],
-        [
-          "15368:dependency-sca",
-          "success"
-        ],
-        [
           "15368:metadata",
           "success"
         ],
         [
-          "15368:sonarqube",
-          "success"
-        ],
-        [
-          "15368:static_analysis",
-          "success"
+          "347564:CodeRabbit",
+          "skipped"
         ]
       ],
       "comments": 2,
       "draft": false,
-      "head": "b1e380806044b59687f2f2d15ef7d51f42a0bf5a",
+      "head": "8325f69baea7c3b0d93433dd567ee7953eee5374",
       "kind": "PR",
       "labels": [
         "fix",
@@ -351,14 +331,9 @@
         ]
       ],
       "state": "open",
-      "status": [
-        [
-          "CodeRabbit",
-          "success"
-        ]
-      ],
+      "status": [],
       "title": "fix(profiles): preserve Space associations in single exports",
-      "updated_at": "2026-10-27T05:12:28Z"
+      "updated_at": "2026-10-27T10:57:34Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
