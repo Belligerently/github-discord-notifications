@@ -1,0 +1,68 @@
+name: GitHub to Discord
+
+on:
+  schedule:
+    - cron: '3-58/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      send_test:
+        description: Send a test notification to both Discord channels
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-discord-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      GH_USERNAME: Belligerently
+      ISSUES_ROLE_ID: '1564451806325768364'
+      PRS_ROLE_ID: '1564451861111635978'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Run regression tests
+        run: python3 -m unittest -v
+      - name: Restore durable notification state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          remote_ref=$(git ls-remote --heads origin refs/heads/monitor-state)
+          if [ -n "$remote_ref" ]; then
+            git fetch --no-tags origin monitor-state
+            git worktree add --detach state-store FETCH_HEAD
+          else
+            git worktree add --detach state-store
+            git -C state-store switch --orphan monitor-state
+          fi
+      - name: Send connection tests when requested
+        if: github.event_name == 'workflow_dispatch' && inputs.send_test
+        env:
+          ISSUES_WEBHOOK_URL: ${{ secrets.ISSUES_WEBHOOK_URL }}
+          PRS_WEBHOOK_URL: ${{ secrets.PRS_WEBHOOK_URL }}
+        run: python3 monitor.py --test
+      - name: Check contributions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ISSUES_WEBHOOK_URL: ${{ secrets.ISSUES_WEBHOOK_URL }}
+          PRS_WEBHOOK_URL: ${{ secrets.PRS_WEBHOOK_URL }}
+        run: python3 monitor.py --state state-store/snapshot.json
+      - name: Persist successful deliveries
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f state-store/snapshot.json ]; then exit 0; fi
+          git -C state-store add snapshot.json
+          if ! git -C state-store diff --cached --quiet; then
+            git -C state-store commit -m 'Record notification state'
+            git -C state-store push origin HEAD:refs/heads/monitor-state
+          fi
