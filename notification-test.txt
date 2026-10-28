@@ -1,0 +1,2 @@
+Temporary change to verify that a real pull request produces a Discord notification.
+This file is a test fixture and does not change the monitor.
