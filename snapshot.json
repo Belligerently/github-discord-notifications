@@ -346,14 +346,14 @@
     },
     "https://github.com/yapfast/yapfast/issues/42": {
       "assignees": [],
-      "comments": 1,
+      "comments": 2,
       "kind": "Issue",
       "labels": [],
       "state": "open",
       "title": "MacOS Support",
-      "updated_at": "2026-10-26T02:31:50Z"
+      "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-10-27",
+  "last_successful_check_date": "2026-10-28",
   "version": 1
 }
