@@ -19,7 +19,7 @@
       ],
       "comments": 0,
       "draft": true,
-      "head": "7957a73b2de0c175676f44e355d99d38d20b969c",
+      "head": "84a08a4203369e1ff111213f99d393f3b14cad99",
       "kind": "PR",
       "labels": [],
       "review_comments": 0,
@@ -27,7 +27,7 @@
       "state": "open",
       "status": [],
       "title": "Add native SwiftUI launcher features and automated releases",
-      "updated_at": "2026-10-28T17:57:31Z"
+      "updated_at": "2026-10-28T22:35:01Z"
     },
     "https://github.com/Belligerently/github-discord-notifications/pull/1": {
       "assignees": [],
