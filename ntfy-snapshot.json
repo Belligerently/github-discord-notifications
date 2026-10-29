@@ -96,14 +96,14 @@
     },
     "https://github.com/filippocalippo/StykAnimate-App/issues/14": {
       "assignees": [],
-      "comments": 0,
+      "comments": 1,
       "kind": "Issue",
       "labels": [
         "enhancement"
       ],
       "state": "open",
       "title": "Add Apple Silicon macOS desktop support",
-      "updated_at": "2026-10-22T19:29:55Z"
+      "updated_at": "2026-10-29T12:01:36Z"
     },
     "https://github.com/filippocalippo/StykAnimate-App/pull/15": {
       "assignees": [],
@@ -169,7 +169,7 @@
     "https://github.com/filippocalippo/StykAnimate-App/pull/33": {
       "assignees": [],
       "checks": [],
-      "comments": 0,
+      "comments": 1,
       "draft": false,
       "head": "778c565f0391bbea4a7f56ca503a1b2a7529aff0",
       "kind": "PR",
@@ -179,7 +179,7 @@
       "state": "open",
       "status": [],
       "title": "Keep shortcut labels consistent with the configured platform",
-      "updated_at": "2026-10-26T14:11:10Z"
+      "updated_at": "2026-10-29T12:00:26Z"
     },
     "https://github.com/llsc12/Paicord/issues/56": {
       "assignees": [],
@@ -296,6 +296,19 @@
       "title": "[Bug] Exporting one profile drops its Space association",
       "updated_at": "2026-10-23T19:25:47Z"
     },
+    "https://github.com/thaw-app/Thaw/issues/1419": {
+      "assignees": [],
+      "comments": 2,
+      "kind": "Issue",
+      "labels": [
+        "macos-27",
+        "needs-info",
+        "profiles"
+      ],
+      "state": "open",
+      "title": "[Bug] A profile cannot be deleted when its saved file is missing",
+      "updated_at": "2026-10-29T14:44:44Z"
+    },
     "https://github.com/thaw-app/Thaw/pull/1385": {
       "assignees": [],
       "checks": [
@@ -363,6 +376,51 @@
       "status": [],
       "title": "fix(profiles): preserve Space associations in single exports",
       "updated_at": "2026-10-29T01:37:07Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1420": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ]
+      ],
+      "comments": 1,
+      "draft": false,
+      "head": "87fd8958ff72815b30f4d3d54171129771768047",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "profiles",
+        "settings",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(profiles): allow deleting profiles with missing files",
+      "updated_at": "2026-10-29T14:43:33Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
