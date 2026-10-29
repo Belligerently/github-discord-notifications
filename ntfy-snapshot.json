@@ -19,7 +19,7 @@
       ],
       "comments": 0,
       "draft": true,
-      "head": "84a08a4203369e1ff111213f99d393f3b14cad99",
+      "head": "f2ccd5ae30631b24b6f7e5b09af2d4eb7916ee3b",
       "kind": "PR",
       "labels": [],
       "review_comments": 0,
@@ -27,7 +27,7 @@
       "state": "open",
       "status": [],
       "title": "Add native SwiftUI launcher features and automated releases",
-      "updated_at": "2026-10-28T22:35:01Z"
+      "updated_at": "2026-10-29T01:01:50Z"
     },
     "https://github.com/Belligerently/github-discord-notifications/pull/1": {
       "assignees": [],
@@ -300,7 +300,31 @@
       "assignees": [],
       "checks": [
         [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:build-macos-26",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "success"
+        ],
+        [
           "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
           "success"
         ],
         [
@@ -328,12 +352,17 @@
           5662503129,
           "CHANGES_REQUESTED",
           "2026-10-27T05:12:28Z"
+        ],
+        [
+          5691838737,
+          "APPROVED",
+          "2026-10-29T01:36:53Z"
         ]
       ],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "fix(profiles): preserve Space associations in single exports",
-      "updated_at": "2026-10-27T15:24:45Z"
+      "updated_at": "2026-10-29T01:37:07Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
@@ -354,6 +383,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-10-28",
+  "last_successful_check_date": "2026-10-29",
   "version": 1
 }
