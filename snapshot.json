@@ -305,9 +305,22 @@
         "needs-info",
         "profiles"
       ],
-      "state": "open",
+      "state": "closed",
       "title": "[Bug] A profile cannot be deleted when its saved file is missing",
-      "updated_at": "2026-10-29T14:44:44Z"
+      "updated_at": "2026-10-29T20:01:44Z"
+    },
+    "https://github.com/thaw-app/Thaw/issues/1422": {
+      "assignees": [],
+      "comments": 2,
+      "kind": "Issue",
+      "labels": [
+        "macos-27",
+        "needs-info",
+        "profiles"
+      ],
+      "state": "closed",
+      "title": "[Bug]: Update All removes a profile\u2019s pre/post script hooks",
+      "updated_at": "2026-10-29T20:15:19Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1385": {
       "assignees": [],
@@ -403,11 +416,15 @@
         [
           "15368:static_analysis",
           "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "cancelled"
         ]
       ],
-      "comments": 1,
+      "comments": 2,
       "draft": false,
-      "head": "87fd8958ff72815b30f4d3d54171129771768047",
+      "head": "f4c0600100d5c1ccd7004b7a8ab7fbde8d2a87f9",
       "kind": "PR",
       "labels": [
         "fix",
@@ -416,11 +433,141 @@
         "test"
       ],
       "review_comments": 0,
-      "reviews": [],
-      "state": "open",
+      "reviews": [
+        [
+          5704130027,
+          "DISMISSED",
+          "2026-10-29T19:57:56Z"
+        ],
+        [
+          5704172283,
+          "APPROVED",
+          "2026-10-29T20:01:33Z"
+        ]
+      ],
+      "state": "merged",
       "status": [],
       "title": "fix(profiles): allow deleting profiles with missing files",
-      "updated_at": "2026-10-29T14:43:33Z"
+      "updated_at": "2026-10-29T20:04:40Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1423": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "cancelled"
+        ]
+      ],
+      "comments": 2,
+      "draft": false,
+      "head": "f50eb8e6310d4a9eec58693201670eb6afdafef4",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5704177278,
+          "DISMISSED",
+          "2026-10-29T20:02:01Z"
+        ],
+        [
+          5704346316,
+          "APPROVED",
+          "2026-10-29T20:15:00Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(profiles): preserve script hooks when updating all",
+      "updated_at": "2026-10-29T20:17:13Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1425": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "skipped"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "skipped"
+        ],
+        [
+          "15368:static_analysis",
+          "failure"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 2,
+      "draft": false,
+      "head": "4bcc230bf4fcbfcd3ced224ad458de66a0341f02",
+      "kind": "PR",
+      "labels": [
+        "appearance",
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5704226571,
+          "COMMENTED",
+          "2026-10-29T20:05:56Z"
+        ],
+        [
+          5704465824,
+          "CHANGES_REQUESTED",
+          "2026-10-29T20:24:15Z"
+        ]
+      ],
+      "state": "open",
+      "status": [],
+      "title": "fix(appearance): observe committed Mission Control activity",
+      "updated_at": "2026-10-29T20:24:16Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
