@@ -514,7 +514,7 @@
       "checks": [
         [
           "15368:build",
-          "skipped"
+          "success"
         ],
         [
           "15368:changes",
@@ -530,20 +530,20 @@
         ],
         [
           "15368:sonarqube",
-          "skipped"
+          "success"
         ],
         [
           "15368:static_analysis",
-          "failure"
+          "success"
         ],
         [
           "347564:CodeRabbit",
           "success"
         ]
       ],
-      "comments": 2,
+      "comments": 3,
       "draft": false,
-      "head": "4bcc230bf4fcbfcd3ced224ad458de66a0341f02",
+      "head": "bdf3c743e581476a29c46eb9e9fdc1febe8e9228",
       "kind": "PR",
       "labels": [
         "appearance",
@@ -562,12 +562,17 @@
           5704465824,
           "CHANGES_REQUESTED",
           "2026-10-29T20:24:15Z"
+        ],
+        [
+          5706186452,
+          "COMMENTED",
+          "2026-10-29T23:16:22Z"
         ]
       ],
       "state": "open",
       "status": [],
       "title": "fix(appearance): observe committed Mission Control activity",
-      "updated_at": "2026-10-29T20:24:16Z"
+      "updated_at": "2026-10-29T23:47:13Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
@@ -588,6 +593,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-10-29",
+  "last_successful_check_date": "2026-10-30",
   "version": 1
 }
