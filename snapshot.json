@@ -576,12 +576,17 @@
           5714929962,
           "COMMENTED",
           "2026-10-30T15:54:29Z"
+        ],
+        [
+          5717359903,
+          "APPROVED",
+          "2026-10-30T19:03:48Z"
         ]
       ],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "fix(appearance): observe committed Mission Control activity",
-      "updated_at": "2026-10-30T16:10:53Z"
+      "updated_at": "2026-10-30T19:04:05Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
