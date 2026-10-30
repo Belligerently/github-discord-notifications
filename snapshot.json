@@ -522,6 +522,10 @@
         ],
         [
           "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
           "success"
         ],
         [
@@ -538,12 +542,12 @@
         ],
         [
           "347564:CodeRabbit",
-          "success"
+          "skipped"
         ]
       ],
       "comments": 3,
       "draft": false,
-      "head": "bdf3c743e581476a29c46eb9e9fdc1febe8e9228",
+      "head": "700783c9f2d25f3936cc28a3a8bf46e468168d76",
       "kind": "PR",
       "labels": [
         "appearance",
@@ -551,7 +555,7 @@
         "menubar",
         "test"
       ],
-      "review_comments": 0,
+      "review_comments": 1,
       "reviews": [
         [
           5704226571,
@@ -567,12 +571,17 @@
           5706186452,
           "COMMENTED",
           "2026-10-29T23:16:22Z"
+        ],
+        [
+          5714929962,
+          "COMMENTED",
+          "2026-10-30T15:54:29Z"
         ]
       ],
       "state": "open",
       "status": [],
       "title": "fix(appearance): observe committed Mission Control activity",
-      "updated_at": "2026-10-29T23:47:13Z"
+      "updated_at": "2026-10-30T16:10:53Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
