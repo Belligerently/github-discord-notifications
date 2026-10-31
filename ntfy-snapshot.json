@@ -285,16 +285,16 @@
     },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
-      "comments": 2,
+      "comments": 3,
       "kind": "Issue",
       "labels": [
         "macos-27",
         "needs-info",
         "profiles"
       ],
-      "state": "open",
+      "state": "closed",
       "title": "[Bug] Exporting one profile drops its Space association",
-      "updated_at": "2026-10-23T19:25:47Z"
+      "updated_at": "2026-10-31T20:35:08Z"
     },
     "https://github.com/thaw-app/Thaw/issues/1419": {
       "assignees": [],
