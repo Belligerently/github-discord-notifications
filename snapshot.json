@@ -271,6 +271,11 @@
           5587432528,
           "COMMENTED",
           "2026-10-20T15:30:53Z"
+        ],
+        [
+          5725996027,
+          "COMMENTED",
+          "2026-11-01T02:14:48Z"
         ]
       ],
       "state": "open",
@@ -281,7 +286,7 @@
         ]
       ],
       "title": "feat(install): app/system default in the Install dialog, free-space warning, install location in details",
-      "updated_at": "2026-10-20T15:30:53Z"
+      "updated_at": "2026-11-01T02:14:49Z"
     },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
@@ -607,6 +612,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-10-31",
+  "last_successful_check_date": "2026-11-01",
   "version": 1
 }
