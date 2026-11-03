@@ -192,25 +192,27 @@
     },
     "https://github.com/openfrontio/OpenFrontIO/issues/6160": {
       "assignees": [],
-      "comments": 1,
+      "comments": 2,
       "kind": "Issue",
       "labels": [
+        "Stale",
         "not-approved"
       ],
       "state": "open",
       "title": "Troubleshooting button in Help has no text",
-      "updated_at": "2026-10-26T20:55:12Z"
+      "updated_at": "2026-11-03T13:58:53Z"
     },
     "https://github.com/openfrontio/OpenFrontIO/issues/6169": {
       "assignees": [],
-      "comments": 1,
+      "comments": 2,
       "kind": "Issue",
       "labels": [
+        "Stale",
         "not-approved"
       ],
       "state": "open",
       "title": "Keybinding controls can't be activated with the keyboard",
-      "updated_at": "2026-10-27T01:19:26Z"
+      "updated_at": "2026-11-03T13:58:49Z"
     },
     "https://github.com/storytold/craft-launcher/pull/616": {
       "assignees": [],
@@ -311,6 +313,54 @@
       "status": [],
       "title": "Allow Tab to open the graph node search",
       "updated_at": "2026-11-03T02:02:46Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/29": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "0af917de38d6a7bd9eccd0f7d7247ae56dd4184e",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Start desktop and browser sessions with an empty graph",
+      "updated_at": "2026-11-03T13:29:30Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/31": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "af83c228c32858156b6f7fffc27dbe052d1e764f",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Allow centered dialogs to move by their title bars",
+      "updated_at": "2026-11-03T15:00:04Z"
     },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
