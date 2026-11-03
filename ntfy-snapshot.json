@@ -288,6 +288,30 @@
       "title": "feat(install): app/system default in the Install dialog, free-space warning, install location in details",
       "updated_at": "2026-11-01T02:14:49Z"
     },
+    "https://github.com/storytold/materialcraft/pull/24": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "f459e5674a16158400dcfd7e07cf00d9a3a3856e",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Allow Tab to open the graph node search",
+      "updated_at": "2026-11-03T02:02:46Z"
+    },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
       "comments": 3,
@@ -612,6 +636,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-11-02",
+  "last_successful_check_date": "2026-11-03",
   "version": 1
 }
