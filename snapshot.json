@@ -332,11 +332,17 @@
       "kind": "PR",
       "labels": [],
       "review_comments": 0,
-      "reviews": [],
+      "reviews": [
+        [
+          5760221035,
+          "COMMENTED",
+          "2026-11-03T22:12:49Z"
+        ]
+      ],
       "state": "open",
       "status": [],
       "title": "Start desktop and browser sessions with an empty graph",
-      "updated_at": "2026-11-03T13:29:30Z"
+      "updated_at": "2026-11-03T22:12:49Z"
     },
     "https://github.com/storytold/materialcraft/pull/31": {
       "assignees": [],
@@ -356,11 +362,41 @@
       "kind": "PR",
       "labels": [],
       "review_comments": 0,
-      "reviews": [],
+      "reviews": [
+        [
+          5760218407,
+          "COMMENTED",
+          "2026-11-03T22:12:33Z"
+        ]
+      ],
       "state": "open",
       "status": [],
       "title": "Allow centered dialogs to move by their title bars",
-      "updated_at": "2026-11-03T15:00:04Z"
+      "updated_at": "2026-11-03T22:12:34Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/39": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "in_progress"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "73378cbfd8328ad58f5505f9395ead5756b04afd",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Keep typed numeric parameter values across frames",
+      "updated_at": "2026-11-03T22:16:54Z"
     },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
