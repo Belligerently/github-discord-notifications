@@ -39,10 +39,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "closed",
       "status": [],
       "title": "Test Discord PR notification",
-      "updated_at": "2026-10-27T02:04:51Z"
+      "updated_at": "2026-11-04T18:01:23Z"
     },
     "https://github.com/Belligerently/github-discord-notifications/pull/2": {
       "assignees": [],
@@ -422,6 +422,46 @@
       "title": "Apply interface scale after pointer release",
       "updated_at": "2026-11-04T13:44:39Z"
     },
+    "https://github.com/storytold/materialcraft/pull/56": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "4c3363037656411cb71c28c202ca6853a7426747",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Clarify node resolution while previewing",
+      "updated_at": "2026-11-04T18:13:27Z"
+    },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
       "comments": 3,
@@ -726,6 +766,62 @@
       "status": [],
       "title": "fix(appearance): observe committed Mission Control activity",
       "updated_at": "2026-10-30T19:04:05Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1448": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "d048196e6dbaca889b6f879b67d8243515f5d76a",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "layout",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(capture): recognize kept pictures after menu bar rebuilds",
+      "updated_at": "2026-11-04T18:00:35Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
