@@ -383,7 +383,7 @@
         ],
         [
           "15368:gate / gate (windows-latest)",
-          "in_progress"
+          "success"
         ]
       ],
       "comments": 0,
@@ -722,6 +722,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-11-03",
+  "last_successful_check_date": "2026-11-04",
   "version": 1
 }
