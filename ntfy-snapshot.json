@@ -697,10 +697,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Fix Distance node edge artifacts with exact source propagation",
-      "updated_at": "2026-11-05T17:03:37Z"
+      "updated_at": "2026-11-05T19:01:47Z"
     },
     "https://github.com/storytold/materialcraft/pull/95": {
       "assignees": [],
@@ -737,10 +737,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Preserve view settings when a request is rejected",
-      "updated_at": "2026-11-05T17:14:34Z"
+      "updated_at": "2026-11-05T19:01:50Z"
     },
     "https://github.com/storytold/materialcraft/pull/96": {
       "assignees": [],
@@ -777,10 +777,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Use declared input order when deleting and relinking nodes",
-      "updated_at": "2026-11-05T17:24:44Z"
+      "updated_at": "2026-11-05T19:01:54Z"
     },
     "https://github.com/storytold/materialcraft/pull/97": {
       "assignees": [],
@@ -817,10 +817,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Preserve the graph seed when grouping selected nodes",
-      "updated_at": "2026-11-05T17:38:01Z"
+      "updated_at": "2026-11-05T19:01:57Z"
     },
     "https://github.com/storytold/materialcraft/pull/98": {
       "assignees": [],
@@ -831,7 +831,7 @@
         ],
         [
           "15368:gate / gate (windows-latest)",
-          "in_progress"
+          "success"
         ],
         [
           "15368:sonarcloud / Build instrumented test archive",
@@ -857,10 +857,50 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Clear parameter drivers when restoring defaults",
-      "updated_at": "2026-11-05T17:44:40Z"
+      "updated_at": "2026-11-05T19:02:01Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/99": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "6fc3c65a26a202ac9ce9e3858c6bc2747c91ab4e",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Reject colliding filenames before exporting maps",
+      "updated_at": "2026-11-05T19:02:04Z"
     },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
@@ -1171,7 +1211,31 @@
       "assignees": [],
       "checks": [
         [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
           "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
           "success"
         ],
         [
@@ -1181,7 +1245,7 @@
       ],
       "comments": 3,
       "draft": false,
-      "head": "9cf5f9350dc63aae013b2ee3381d5e902c6e50d5",
+      "head": "b3a6ea1eb7ea7c84f5e0b9dd06065c2697bc086b",
       "kind": "PR",
       "labels": [
         "fix",
@@ -1189,11 +1253,17 @@
         "test"
       ],
       "review_comments": 0,
-      "reviews": [],
-      "state": "open",
+      "reviews": [
+        [
+          5791781603,
+          "APPROVED",
+          "2026-11-05T20:41:11Z"
+        ]
+      ],
+      "state": "merged",
       "status": [],
       "title": "fix(capture): recognize kept pictures after menu bar rebuilds",
-      "updated_at": "2026-11-05T13:20:32Z"
+      "updated_at": "2026-11-05T20:41:25Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
