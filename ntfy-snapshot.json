@@ -369,10 +369,10 @@
           "2026-11-03T22:12:33Z"
         ]
       ],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Allow centered dialogs to move by their title bars",
-      "updated_at": "2026-11-03T22:12:34Z"
+      "updated_at": "2026-11-05T13:21:20Z"
     },
     "https://github.com/storytold/materialcraft/pull/39": {
       "assignees": [],
@@ -393,10 +393,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Keep typed numeric parameter values across frames",
-      "updated_at": "2026-11-03T22:16:54Z"
+      "updated_at": "2026-11-05T13:35:18Z"
     },
     "https://github.com/storytold/materialcraft/pull/54": {
       "assignees": [],
@@ -417,10 +417,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Apply interface scale after pointer release",
-      "updated_at": "2026-11-04T13:44:39Z"
+      "updated_at": "2026-11-05T15:07:10Z"
     },
     "https://github.com/storytold/materialcraft/pull/56": {
       "assignees": [],
@@ -457,10 +457,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Clarify node resolution while previewing",
-      "updated_at": "2026-11-04T18:13:27Z"
+      "updated_at": "2026-11-05T15:13:12Z"
     },
     "https://github.com/storytold/materialcraft/pull/62": {
       "assignees": [],
@@ -497,10 +497,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Keep keyboard-selected node search results visible",
-      "updated_at": "2026-11-05T00:15:13Z"
+      "updated_at": "2026-11-05T15:16:33Z"
     },
     "https://github.com/storytold/materialcraft/pull/63": {
       "assignees": [],
@@ -537,10 +537,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Make round parameter values reachable by dragging",
-      "updated_at": "2026-11-05T00:59:39Z"
+      "updated_at": "2026-11-05T15:18:35Z"
     },
     "https://github.com/storytold/materialcraft/pull/64": {
       "assignees": [],
@@ -577,10 +577,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Recognize reported SBS aliases for four library nodes",
-      "updated_at": "2026-11-05T01:31:27Z"
+      "updated_at": "2026-11-05T15:20:33Z"
     },
     "https://github.com/storytold/materialcraft/pull/67": {
       "assignees": [],
@@ -617,10 +617,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Show first search result after filtering or reopening",
-      "updated_at": "2026-11-05T02:12:26Z"
+      "updated_at": "2026-11-05T17:06:23Z"
     },
     "https://github.com/storytold/materialcraft/pull/68": {
       "assignees": [],
@@ -657,10 +657,210 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Make node-search result rows clickable across their width",
-      "updated_at": "2026-11-05T02:12:37Z"
+      "updated_at": "2026-11-05T17:06:26Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/94": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "61aec6f9ff2e3cf0028f2fab55b8b80af5be9799",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Fix Distance node edge artifacts with exact source propagation",
+      "updated_at": "2026-11-05T17:03:37Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/95": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "2a88e98d242350eeb4c3359f8a5ece1b8b000618",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Preserve view settings when a request is rejected",
+      "updated_at": "2026-11-05T17:14:34Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/96": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "5b3a0812172b725d343575b2d8b41d848f19e624",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Use declared input order when deleting and relinking nodes",
+      "updated_at": "2026-11-05T17:24:44Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/97": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "868346ecae2a3046c6eaa939efee1c85749f250d",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Preserve the graph seed when grouping selected nodes",
+      "updated_at": "2026-11-05T17:38:01Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/98": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "in_progress"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "6ac573dab9f16f1479d8e330349dab0faa6fa10c",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Clear parameter drivers when restoring defaults",
+      "updated_at": "2026-11-05T17:44:40Z"
     },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
@@ -971,35 +1171,7 @@
       "assignees": [],
       "checks": [
         [
-          "15368:build",
-          "success"
-        ],
-        [
-          "15368:changes",
-          "success"
-        ],
-        [
-          "15368:dependency-sca",
-          "skipped"
-        ],
-        [
-          "15368:lockfiles",
-          "success"
-        ],
-        [
           "15368:metadata",
-          "success"
-        ],
-        [
-          "15368:sonarqube",
-          "success"
-        ],
-        [
-          "15368:static_analysis",
-          "success"
-        ],
-        [
-          "2749804:Strix Security Review",
           "success"
         ],
         [
@@ -1009,7 +1181,7 @@
       ],
       "comments": 3,
       "draft": false,
-      "head": "d048196e6dbaca889b6f879b67d8243515f5d76a",
+      "head": "9cf5f9350dc63aae013b2ee3381d5e902c6e50d5",
       "kind": "PR",
       "labels": [
         "fix",
@@ -1021,7 +1193,7 @@
       "state": "open",
       "status": [],
       "title": "fix(capture): recognize kept pictures after menu bar rebuilds",
-      "updated_at": "2026-11-04T18:00:35Z"
+      "updated_at": "2026-11-05T13:20:32Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
