@@ -462,6 +462,206 @@
       "title": "Clarify node resolution while previewing",
       "updated_at": "2026-11-04T18:13:27Z"
     },
+    "https://github.com/storytold/materialcraft/pull/62": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "9b51c35dd74189ced6e27e3558629ce351b77a90",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Keep keyboard-selected node search results visible",
+      "updated_at": "2026-11-05T00:15:13Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/63": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "ff310018eff28d1934ec7130a9e1759c6c5fd3c2",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Make round parameter values reachable by dragging",
+      "updated_at": "2026-11-05T00:59:39Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/64": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "96db0b01f937de3eb053b685911fe9cae4573d96",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Recognize reported SBS aliases for four library nodes",
+      "updated_at": "2026-11-05T01:31:27Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/67": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "b0e8b14017a04ab39fcf517cbd7cbbf01bd15a64",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Show first search result after filtering or reopening",
+      "updated_at": "2026-11-05T02:12:26Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/68": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "ed9f2d0facf234652048a5735aa6731b92b2da37",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Make node-search result rows clickable across their width",
+      "updated_at": "2026-11-05T02:12:37Z"
+    },
     "https://github.com/thaw-app/Thaw/issues/1384": {
       "assignees": [],
       "comments": 3,
@@ -842,6 +1042,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-11-04",
+  "last_successful_check_date": "2026-11-05",
   "version": 1
 }
