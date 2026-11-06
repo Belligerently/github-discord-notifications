@@ -191,16 +191,18 @@
       "updated_at": "2026-10-08T02:03:53Z"
     },
     "https://github.com/openfrontio/OpenFrontIO/issues/6160": {
-      "assignees": [],
-      "comments": 2,
+      "assignees": [
+        "VariableVince"
+      ],
+      "comments": 3,
       "kind": "Issue",
       "labels": [
         "Stale",
-        "not-approved"
+        "approved"
       ],
       "state": "open",
       "title": "Troubleshooting button in Help has no text",
-      "updated_at": "2026-11-03T13:58:53Z"
+      "updated_at": "2026-11-06T13:31:30Z"
     },
     "https://github.com/openfrontio/OpenFrontIO/issues/6169": {
       "assignees": [],
@@ -329,6 +331,46 @@
       "status": [],
       "title": "Handle platform clipboard events for node shortcuts",
       "updated_at": "2026-11-06T00:05:06Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/131": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "7768559e9ae133d68e53fa4786482b36b2f93c77",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Let dots be dragged from their body at any zoom",
+      "updated_at": "2026-11-06T16:43:29Z"
     },
     "https://github.com/storytold/materialcraft/pull/24": {
       "assignees": [],
@@ -1304,6 +1346,114 @@
       "status": [],
       "title": "fix(capture): recognize kept pictures after menu bar rebuilds",
       "updated_at": "2026-11-05T20:41:25Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1487": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "skipped"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "6410aa071d2e9da92778350ae6f80299e444a462",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(profiles): preserve current activation when undoing creation",
+      "updated_at": "2026-11-06T16:08:31Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1488": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "skipped"
+        ]
+      ],
+      "comments": 2,
+      "draft": true,
+      "head": "46c6b6918b85a8ed4b9f770ec59ede613283c2c5",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "layout",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(capture): count pictures of narrow parked items",
+      "updated_at": "2026-11-06T16:08:10Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
