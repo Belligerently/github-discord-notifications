@@ -290,6 +290,46 @@
       "title": "feat(install): app/system default in the Install dialog, free-space warning, install location in details",
       "updated_at": "2026-11-01T02:14:49Z"
     },
+    "https://github.com/storytold/materialcraft/pull/116": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "a1af5a5cc8b73c75628286b2edc1f312d5b134f0",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Handle platform clipboard events for node shortcuts",
+      "updated_at": "2026-11-06T00:05:06Z"
+    },
     "https://github.com/storytold/materialcraft/pull/24": {
       "assignees": [],
       "checks": [
@@ -1284,6 +1324,6 @@
       "updated_at": "2026-10-28T00:21:56Z"
     }
   },
-  "last_successful_check_date": "2026-11-05",
+  "last_successful_check_date": "2026-11-06",
   "version": 1
 }
