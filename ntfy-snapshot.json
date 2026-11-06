@@ -200,9 +200,9 @@
         "Stale",
         "approved"
       ],
-      "state": "open",
+      "state": "closed",
       "title": "Troubleshooting button in Help has no text",
-      "updated_at": "2026-11-06T13:31:30Z"
+      "updated_at": "2026-11-06T19:17:25Z"
     },
     "https://github.com/openfrontio/OpenFrontIO/issues/6169": {
       "assignees": [],
@@ -292,6 +292,18 @@
       "title": "feat(install): app/system default in the Install dialog, free-space warning, install location in details",
       "updated_at": "2026-11-01T02:14:49Z"
     },
+    "https://github.com/storytold/materialcraft/issues/135": {
+      "assignees": [],
+      "comments": 0,
+      "kind": "Issue",
+      "labels": [
+        "bug",
+        "priority: medium"
+      ],
+      "state": "open",
+      "title": "Blend: Color dodge and Color burn give the wrong result at black and white",
+      "updated_at": "2026-11-06T18:06:39Z"
+    },
     "https://github.com/storytold/materialcraft/pull/116": {
       "assignees": [],
       "checks": [
@@ -371,6 +383,46 @@
       "status": [],
       "title": "Let dots be dragged from their body at any zoom",
       "updated_at": "2026-11-06T16:43:29Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/136": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "be871550c0d9f9ecbe288f53e5b6f93ca4ad4e67",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Keep black and white backgrounds in Color dodge and Color burn",
+      "updated_at": "2026-11-06T18:04:30Z"
     },
     "https://github.com/storytold/materialcraft/pull/24": {
       "assignees": [],
@@ -1401,7 +1453,7 @@
       "state": "open",
       "status": [],
       "title": "fix(profiles): preserve current activation when undoing creation",
-      "updated_at": "2026-11-06T16:08:31Z"
+      "updated_at": "2026-11-06T20:49:55Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1488": {
       "assignees": [],
@@ -1453,7 +1505,7 @@
       "state": "open",
       "status": [],
       "title": "fix(capture): count pictures of narrow parked items",
-      "updated_at": "2026-11-06T16:08:10Z"
+      "updated_at": "2026-11-06T20:49:59Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
