@@ -1492,10 +1492,10 @@
       ],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "fix(profiles): preserve current activation when undoing creation",
-      "updated_at": "2026-11-06T20:49:55Z"
+      "updated_at": "2026-11-07T21:17:54Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1488": {
       "assignees": [],
@@ -1544,10 +1544,10 @@
       ],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "fix(capture): count pictures of narrow parked items",
-      "updated_at": "2026-11-06T20:49:59Z"
+      "updated_at": "2026-11-07T21:17:54Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
