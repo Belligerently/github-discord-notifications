@@ -300,9 +300,9 @@
         "bug",
         "priority: medium"
       ],
-      "state": "open",
+      "state": "closed",
       "title": "Blend: Color dodge and Color burn give the wrong result at black and white",
-      "updated_at": "2026-11-06T18:06:39Z"
+      "updated_at": "2026-11-07T06:05:31Z"
     },
     "https://github.com/storytold/materialcraft/pull/116": {
       "assignees": [],
@@ -332,17 +332,19 @@
           "skipped"
         ]
       ],
-      "comments": 0,
+      "comments": 2,
       "draft": false,
       "head": "a1af5a5cc8b73c75628286b2edc1f312d5b134f0",
       "kind": "PR",
-      "labels": [],
+      "labels": [
+        "backlog"
+      ],
       "review_comments": 0,
       "reviews": [],
       "state": "open",
       "status": [],
       "title": "Handle platform clipboard events for node shortcuts",
-      "updated_at": "2026-11-06T00:05:06Z"
+      "updated_at": "2026-11-07T07:26:25Z"
     },
     "https://github.com/storytold/materialcraft/pull/131": {
       "assignees": [],
@@ -372,17 +374,17 @@
           "skipped"
         ]
       ],
-      "comments": 0,
+      "comments": 1,
       "draft": false,
       "head": "7768559e9ae133d68e53fa4786482b36b2f93c77",
       "kind": "PR",
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Let dots be dragged from their body at any zoom",
-      "updated_at": "2026-11-06T16:43:29Z"
+      "updated_at": "2026-11-07T06:12:49Z"
     },
     "https://github.com/storytold/materialcraft/pull/136": {
       "assignees": [],
@@ -419,10 +421,50 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Keep black and white backgrounds in Color dodge and Color burn",
-      "updated_at": "2026-11-06T18:04:30Z"
+      "updated_at": "2026-11-07T06:05:30Z"
+    },
+    "https://github.com/storytold/materialcraft/pull/145": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:gate / gate (ubuntu-24.04)",
+          "success"
+        ],
+        [
+          "15368:gate / gate (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Build instrumented test archive",
+          "skipped"
+        ],
+        [
+          "15368:sonarcloud / Plan coverage shards",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / SonarCloud Scan",
+          "success"
+        ],
+        [
+          "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
+          "skipped"
+        ]
+      ],
+      "comments": 2,
+      "draft": false,
+      "head": "3be36016d2d09af62478df8e855395b5370d1c7a",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Let a parameter be exposed as a graph input on more than one node",
+      "updated_at": "2026-11-07T06:17:04Z"
     },
     "https://github.com/storytold/materialcraft/pull/24": {
       "assignees": [],
