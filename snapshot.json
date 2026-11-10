@@ -305,7 +305,9 @@
       "updated_at": "2026-11-07T06:05:31Z"
     },
     "https://github.com/storytold/materialcraft/pull/116": {
-      "assignees": [],
+      "assignees": [
+        "PiJellyPin"
+      ],
       "checks": [
         [
           "15368:gate / gate (ubuntu-24.04)",
@@ -330,21 +332,31 @@
         [
           "15368:sonarcloud / Tests ${{ matrix.shard }}/${{ inputs.shards }}",
           "skipped"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
         ]
       ],
-      "comments": 3,
+      "comments": 4,
       "draft": false,
-      "head": "a1af5a5cc8b73c75628286b2edc1f312d5b134f0",
+      "head": "613e4837818ad5520dd5cf28db4d5de6356012c8",
       "kind": "PR",
       "labels": [
         "backlog"
       ],
       "review_comments": 0,
-      "reviews": [],
-      "state": "open",
+      "reviews": [
+        [
+          5837793440,
+          "COMMENTED",
+          "2026-11-10T06:43:22Z"
+        ]
+      ],
+      "state": "merged",
       "status": [],
-      "title": "Handle platform clipboard events for node shortcuts",
-      "updated_at": "2026-11-09T00:25:58Z"
+      "title": "Handle platform clipboard events for node shortcuts (CTRL-C, CTRL-V)",
+      "updated_at": "2026-11-10T08:08:04Z"
     },
     "https://github.com/storytold/materialcraft/pull/131": {
       "assignees": [],
