@@ -206,19 +206,37 @@
     },
     "https://github.com/openfrontio/OpenFrontIO/issues/6169": {
       "assignees": [],
-      "comments": 2,
+      "comments": 3,
       "kind": "Issue",
       "labels": [
         "Stale",
+        "auto-closed-stale",
         "not-approved"
       ],
-      "state": "open",
+      "state": "closed",
       "title": "Keybinding controls can't be activated with the keyboard",
-      "updated_at": "2026-11-03T13:58:49Z"
+      "updated_at": "2026-11-10T14:43:13Z"
     },
     "https://github.com/storytold/craft-launcher/pull/616": {
       "assignees": [],
-      "checks": [],
+      "checks": [
+        [
+          "15368:nix / eval",
+          "success"
+        ],
+        [
+          "15368:test (ubuntu-latest)",
+          "success"
+        ],
+        [
+          "15368:test (windows-latest)",
+          "success"
+        ],
+        [
+          "15368:wasm32 check + trunk build",
+          "success"
+        ]
+      ],
       "comments": 2,
       "draft": false,
       "head": "d91e5e654de07c3e09aea494359a74ef0f3a6968",
