@@ -146,10 +146,10 @@
           "2026-10-27T05:08:33Z"
         ]
       ],
-      "state": "open",
+      "state": "closed",
       "status": [],
       "title": "Add connected-figure selection with native lock guardrails",
-      "updated_at": "2026-10-27T05:24:00Z"
+      "updated_at": "2026-11-11T13:54:01Z"
     },
     "https://github.com/filippocalippo/StykAnimate-App/pull/32": {
       "assignees": [],
@@ -161,10 +161,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "closed",
       "status": [],
       "title": "Add set-based selection commands to the Rust engine",
-      "updated_at": "2026-10-26T02:09:29Z"
+      "updated_at": "2026-11-11T13:54:04Z"
     },
     "https://github.com/filippocalippo/StykAnimate-App/pull/33": {
       "assignees": [],
@@ -176,10 +176,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "closed",
       "status": [],
       "title": "Keep shortcut labels consistent with the configured platform",
-      "updated_at": "2026-10-29T12:00:26Z"
+      "updated_at": "2026-11-11T13:54:05Z"
     },
     "https://github.com/llsc12/Paicord/issues/56": {
       "assignees": [],
