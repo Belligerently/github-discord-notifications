@@ -181,6 +181,21 @@
       "title": "Keep shortcut labels consistent with the configured platform",
       "updated_at": "2026-11-11T13:54:05Z"
     },
+    "https://github.com/filippocalippo/StykAnimate-App/pull/41": {
+      "assignees": [],
+      "checks": [],
+      "comments": 0,
+      "draft": false,
+      "head": "c629e5f97e8c5fa90a301e6e0d1b78ff246a50c4",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Fix Home project matching through linked folders",
+      "updated_at": "2026-11-12T18:47:13Z"
+    },
     "https://github.com/llsc12/Paicord/issues/56": {
       "assignees": [],
       "comments": 6,
@@ -1578,6 +1593,174 @@
       "status": [],
       "title": "fix(capture): count pictures of narrow parked items",
       "updated_at": "2026-11-07T21:17:54Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1555": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "3591d9905e38394c8af9280d1a7676cfea8ff2f9",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(profiles): preserve associations when the target is missing",
+      "updated_at": "2026-11-12T19:51:05Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1556": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "63c6471825e309556dbd9407de33d9969cce4e80",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "hotkeys",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(profiles): compare imported shortcuts by key combination",
+      "updated_at": "2026-11-12T19:07:11Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1557": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "9aac1349f098ec0a520b0ba87a9c2164e6eb63f5",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "hotkeys",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 2,
+      "reviews": [
+        [
+          5880604120,
+          "COMMENTED",
+          "2026-11-12T19:17:36Z"
+        ]
+      ],
+      "state": "open",
+      "status": [],
+      "title": "fix(profiles): restore apply shortcuts when undoing deletion",
+      "updated_at": "2026-11-12T19:35:46Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
