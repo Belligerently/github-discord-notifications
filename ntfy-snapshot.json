@@ -374,7 +374,7 @@
           "2026-11-01T02:14:48Z"
         ]
       ],
-      "state": "open",
+      "state": "closed",
       "status": [
         [
           "CodeRabbit",
@@ -382,7 +382,7 @@
         ]
       ],
       "title": "feat(install): app/system default in the Install dialog, free-space warning, install location in details",
-      "updated_at": "2026-11-01T02:14:49Z"
+      "updated_at": "2026-11-13T02:18:37Z"
     },
     "https://github.com/storytold/materialcraft/issues/135": {
       "assignees": [],
