@@ -2213,6 +2213,68 @@
           "success"
         ],
         [
+          "347564:CodeRabbit",
+          "cancelled"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "06187807b650b36165ef99dd1c5f85d1ff8218ac",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5901117027,
+          "APPROVED",
+          "2026-11-14T03:01:21Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(menubar): honor disabled rehide for pending actions",
+      "updated_at": "2026-11-14T03:02:46Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1576": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
           "2749804:Strix Security Review",
           "success"
         ],
@@ -2223,19 +2285,580 @@
       ],
       "comments": 3,
       "draft": false,
-      "head": "d9036369fd15069af4d6b8c69906478be6205624",
+      "head": "0c1769d17dc85787e32293d37ff45e62e93ee0d2",
       "kind": "PR",
       "labels": [
         "fix",
-        "menubar",
+        "layout",
+        "menubar"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5901212874,
+          "APPROVED",
+          "2026-11-14T03:17:48Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(items): keep restored MenuBarAgent identities unique",
+      "updated_at": "2026-11-14T03:18:10Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1577": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 4,
+      "draft": false,
+      "head": "d946aa1a36c1eef6f0a38b51b312387376ab3160",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5901409240,
+          "APPROVED",
+          "2026-11-14T03:50:30Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(menubar): keep manual Zen Mode off while a source keeps asking",
+      "updated_at": "2026-11-14T03:50:45Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1578": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 4,
+      "draft": false,
+      "head": "5c6d9c47bcdaba6a3853d2d4dc696370a1279da3",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar"
+      ],
+      "review_comments": 1,
+      "reviews": [
+        [
+          5901049291,
+          "COMMENTED",
+          "2026-11-14T02:51:27Z"
+        ],
+        [
+          5901557249,
+          "APPROVED",
+          "2026-11-14T04:18:58Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(items): restore the pointer when a click is cancelled",
+      "updated_at": "2026-11-14T04:19:14Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1579": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "neutral"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "989521fd877247920a2ba3b31a9503271d28b237",
+      "kind": "PR",
+      "labels": [
+        "appearance",
+        "fix",
+        "settings"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5901565033,
+          "APPROVED",
+          "2026-11-14T04:20:14Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(settings): clear per-Space looks on reset all settings",
+      "updated_at": "2026-11-14T04:20:14Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1580": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "failure"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "skipped"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "neutral"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "2a60bc4511b7f73cc31db6a83653fefba3b68bbb",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar"
+      ],
+      "review_comments": 1,
+      "reviews": [
+        [
+          5901474360,
+          "COMMENTED",
+          "2026-11-14T04:02:57Z"
+        ],
+        [
+          5901585024,
+          "APPROVED",
+          "2026-11-14T04:24:31Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(ax): give a replaced helper a fresh run of timeouts",
+      "updated_at": "2026-11-14T04:24:42Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1581": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "neutral"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "644f09634f30e1161c2f32fc8c5db21b8892b7b0",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5901594816,
+          "APPROVED",
+          "2026-11-14T04:26:26Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(widgets): read Mach CPU tick counters as unsigned",
+      "updated_at": "2026-11-14T04:26:35Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1582": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "failure"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "skipped"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 4,
+      "draft": false,
+      "head": "571ac16cd2592bd759fe0f1ab67bb9cb122969fa",
+      "kind": "PR",
+      "labels": [
+        "ops",
+        "settings",
+        "test"
+      ],
+      "review_comments": 1,
+      "reviews": [
+        [
+          5901895850,
+          "COMMENTED",
+          "2026-11-14T05:29:03Z"
+        ],
+        [
+          5902109569,
+          "APPROVED",
+          "2026-11-14T06:00:35Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "test(settings): render and work the General, Tools, Visibility and Advanced sections",
+      "updated_at": "2026-11-14T06:01:07Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1584": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "c72bb45aa5170947c18ae375aa1e402a59778775",
+      "kind": "PR",
+      "labels": [
+        "ops",
+        "settings",
         "test"
       ],
       "review_comments": 0,
-      "reviews": [],
-      "state": "open",
+      "reviews": [
+        [
+          5902137914,
+          "DISMISSED",
+          "2026-11-14T06:05:58Z"
+        ]
+      ],
+      "state": "merged",
       "status": [],
-      "title": "fix(menubar): honor disabled rehide for pending actions",
-      "updated_at": "2026-11-14T01:21:04Z"
+      "title": "test(settings): render and work the pages directly under SettingsPanes",
+      "updated_at": "2026-11-14T06:17:38Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1586": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "4ce82efd626ee046f03eafcf3582ee447e884abb",
+      "kind": "PR",
+      "labels": [
+        "layout",
+        "ops",
+        "settings",
+        "test"
+      ],
+      "review_comments": 1,
+      "reviews": [
+        [
+          5901862674,
+          "COMMENTED",
+          "2026-11-14T05:21:29Z"
+        ],
+        [
+          5902129963,
+          "APPROVED",
+          "2026-11-14T06:04:26Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "test(settings): render and work the Layout page and its sections",
+      "updated_at": "2026-11-14T06:04:44Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1587": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "failure"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "skipped"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "2bd62f402187400a0220db37ed702d21c13afa49",
+      "kind": "PR",
+      "labels": [
+        "ops",
+        "settings",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5902132173,
+          "APPROVED",
+          "2026-11-14T06:05:00Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "test(settings): draw the Displays confirmation buttons",
+      "updated_at": "2026-11-14T06:05:26Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
