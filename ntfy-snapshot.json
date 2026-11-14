@@ -2860,6 +2860,69 @@
       "title": "test(settings): draw the Displays confirmation buttons",
       "updated_at": "2026-11-14T06:05:26Z"
     },
+    "https://github.com/thaw-app/Thaw/pull/1591": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "69cd30d1cf7e833a7ac7aeba9f44a924ac420799",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "hotkeys",
+        "icebar",
+        "menubar",
+        "profiles",
+        "settings"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix: five small fixes for Profiles off, the Thaw Bar rehide and release-item",
+      "updated_at": "2026-11-14T18:31:24Z"
+    },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
       "comments": 0,
