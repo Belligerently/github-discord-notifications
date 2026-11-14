@@ -2896,17 +2896,13 @@
           "success"
         ],
         [
-          "2749804:Strix Security Review",
-          "success"
-        ],
-        [
           "347564:CodeRabbit",
           "success"
         ]
       ],
       "comments": 3,
       "draft": false,
-      "head": "69cd30d1cf7e833a7ac7aeba9f44a924ac420799",
+      "head": "8982a1a41784b60e7ab41ffdf54ac50a19407c12",
       "kind": "PR",
       "labels": [
         "fix",
@@ -2916,12 +2912,38 @@
         "profiles",
         "settings"
       ],
-      "review_comments": 0,
-      "reviews": [],
+      "review_comments": 1,
+      "reviews": [
+        [
+          5907399832,
+          "COMMENTED",
+          "2026-11-14T22:11:18Z"
+        ],
+        [
+          5907404011,
+          "COMMENTED",
+          "2026-11-14T22:12:07Z"
+        ],
+        [
+          5907407348,
+          "COMMENTED",
+          "2026-11-14T22:12:40Z"
+        ],
+        [
+          5907424285,
+          "COMMENTED",
+          "2026-11-14T22:15:31Z"
+        ],
+        [
+          5907540085,
+          "COMMENTED",
+          "2026-11-14T22:40:07Z"
+        ]
+      ],
       "state": "open",
       "status": [],
       "title": "fix: five small fixes for Profiles off, the Thaw Bar rehide and release-item",
-      "updated_at": "2026-11-14T18:31:24Z"
+      "updated_at": "2026-11-14T22:40:52Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
