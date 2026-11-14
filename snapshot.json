@@ -1798,6 +1798,10 @@
           "success"
         ],
         [
+          "15368:packages",
+          "success"
+        ],
+        [
           "15368:sonarqube",
           "success"
         ],
@@ -1810,9 +1814,9 @@
           "success"
         ]
       ],
-      "comments": 3,
+      "comments": 5,
       "draft": false,
-      "head": "9aac1349f098ec0a520b0ba87a9c2164e6eb63f5",
+      "head": "2fab89909d8d169175c753e8f9ce6b03559ecbe0",
       "kind": "PR",
       "labels": [
         "fix",
@@ -1836,12 +1840,402 @@
           5888741515,
           "CHANGES_REQUESTED",
           "2026-11-13T09:23:46Z"
+        ],
+        [
+          5900213885,
+          "APPROVED",
+          "2026-11-14T00:58:11Z"
         ]
       ],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "fix(profiles): restore apply shortcuts when undoing deletion",
-      "updated_at": "2026-11-13T09:23:46Z"
+      "updated_at": "2026-11-14T00:58:18Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1570": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "cancelled"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "b67668eba005da01b293c9e38761b6d35be906a4",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "hotkeys",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5900474048,
+          "APPROVED",
+          "2026-11-14T01:34:56Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(search): keep command shortcuts in their own window",
+      "updated_at": "2026-11-14T01:35:37Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1571": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "in_progress"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "cancelled"
+        ]
+      ],
+      "comments": 5,
+      "draft": false,
+      "head": "407772f07bc972f299d9919cf62bffed6b620fd9",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 4,
+      "reviews": [
+        [
+          5899110954,
+          "COMMENTED",
+          "2026-11-13T22:45:36Z"
+        ],
+        [
+          5899259089,
+          "COMMENTED",
+          "2026-11-13T23:01:06Z"
+        ],
+        [
+          5899259430,
+          "COMMENTED",
+          "2026-11-13T23:01:08Z"
+        ],
+        [
+          5900527705,
+          "APPROVED",
+          "2026-11-14T01:41:06Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(menubar): cancel section rehides when presentation closes",
+      "updated_at": "2026-11-14T01:41:45Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1572": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "cancelled"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "389a83bafaef5537b0d61a6bdc988fdd2211ab62",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "profiles",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5900215945,
+          "APPROVED",
+          "2026-11-14T00:58:34Z"
+        ],
+        [
+          5900444572,
+          "DISMISSED",
+          "2026-11-14T01:31:08Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(profiles): compare effective display settings in previews",
+      "updated_at": "2026-11-14T01:32:25Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1573": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "in_progress"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "cancelled"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "3ef1eddd80136b7d657d18044697b643c3510632",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5900506471,
+          "APPROVED",
+          "2026-11-14T01:38:44Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(search): refresh candidates after external item renames",
+      "updated_at": "2026-11-14T01:39:31Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1574": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "018feb739530602f24a2ab372e4b05bdec4af202",
+      "kind": "PR",
+      "labels": [
+        "ops",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5900211368,
+          "APPROVED",
+          "2026-11-14T00:57:44Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "test(ax): verify parallel reads without a timing threshold",
+      "updated_at": "2026-11-14T00:57:45Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1575": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "d9036369fd15069af4d6b8c69906478be6205624",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(menubar): honor disabled rehide for pending actions",
+      "updated_at": "2026-11-14T01:21:04Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
@@ -1862,6 +2256,6 @@
       "updated_at": "2026-11-06T06:54:18Z"
     }
   },
-  "last_successful_check_date": "2026-11-13",
+  "last_successful_check_date": "2026-11-14",
   "version": 1
 }
