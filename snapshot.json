@@ -2955,6 +2955,72 @@
       "title": "fix: five small fixes for Profiles off, the Thaw Bar rehide and release-item",
       "updated_at": "2026-11-15T02:02:15Z"
     },
+    "https://github.com/thaw-app/Thaw/pull/1609": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "714e29e0b1cb23f75928cc4f1ca3ff9b996d0664",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [
+        [
+          5915935195,
+          "APPROVED",
+          "2026-11-16T06:36:40Z"
+        ]
+      ],
+      "state": "merged",
+      "status": [],
+      "title": "fix(menubar): cancel focus rehide after a delayed menu check",
+      "updated_at": "2026-11-16T06:36:40Z"
+    },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
       "comments": 0,
