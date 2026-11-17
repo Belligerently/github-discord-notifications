@@ -3021,6 +3021,72 @@
       "title": "fix(menubar): cancel focus rehide after a delayed menu check",
       "updated_at": "2026-11-16T06:36:40Z"
     },
+    "https://github.com/thaw-app/Thaw/pull/1628": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "failure"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "skipped"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "60c62ccf0d1554b39a044183fd645d78da0aa0ec",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "menubar",
+        "test"
+      ],
+      "review_comments": 1,
+      "reviews": [
+        [
+          5931231931,
+          "COMMENTED",
+          "2026-11-17T01:40:42Z"
+        ]
+      ],
+      "state": "open",
+      "status": [],
+      "title": "fix(menubar): keep items open when the pointer returns during rehide",
+      "updated_at": "2026-11-17T01:40:46Z"
+    },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
       "comments": 0,
@@ -3040,6 +3106,6 @@
       "updated_at": "2026-11-06T06:54:18Z"
     }
   },
-  "last_successful_check_date": "2026-11-16",
+  "last_successful_check_date": "2026-11-17",
   "version": 1
 }
