@@ -3026,7 +3026,7 @@
       "checks": [
         [
           "15368:build",
-          "failure"
+          "success"
         ],
         [
           "15368:changes",
@@ -3050,14 +3050,10 @@
         ],
         [
           "15368:sonarqube",
-          "skipped"
-        ],
-        [
-          "15368:static_analysis",
           "success"
         ],
         [
-          "2749804:Strix Security Review",
+          "15368:static_analysis",
           "success"
         ],
         [
@@ -3067,25 +3063,30 @@
       ],
       "comments": 3,
       "draft": false,
-      "head": "60c62ccf0d1554b39a044183fd645d78da0aa0ec",
+      "head": "62da5b588b2031dd84dee3de6f336270e6497c96",
       "kind": "PR",
       "labels": [
         "fix",
         "menubar",
         "test"
       ],
-      "review_comments": 1,
+      "review_comments": 2,
       "reviews": [
         [
           5931231931,
           "COMMENTED",
           "2026-11-17T01:40:42Z"
+        ],
+        [
+          5938814582,
+          "COMMENTED",
+          "2026-11-17T12:56:31Z"
         ]
       ],
       "state": "open",
       "status": [],
       "title": "fix(menubar): keep items open when the pointer returns during rehide",
-      "updated_at": "2026-11-17T01:40:46Z"
+      "updated_at": "2026-11-17T13:00:24Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
