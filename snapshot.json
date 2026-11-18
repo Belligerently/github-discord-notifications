@@ -1287,7 +1287,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): preserve Space associations in single exports",
-      "updated_at": "2026-10-29T01:37:07Z"
+      "updated_at": "2026-11-18T14:02:22Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1420": {
       "assignees": [],
@@ -1347,7 +1347,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): allow deleting profiles with missing files",
-      "updated_at": "2026-10-29T20:04:40Z"
+      "updated_at": "2026-11-18T14:02:13Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1423": {
       "assignees": [],
@@ -1406,7 +1406,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): preserve script hooks when updating all",
-      "updated_at": "2026-10-29T20:17:13Z"
+      "updated_at": "2026-11-18T14:04:44Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1425": {
       "assignees": [],
@@ -1485,7 +1485,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(appearance): observe committed Mission Control activity",
-      "updated_at": "2026-10-30T19:04:05Z"
+      "updated_at": "2026-11-18T14:02:04Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1448": {
       "assignees": [],
@@ -1543,7 +1543,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(capture): recognize kept pictures after menu bar rebuilds",
-      "updated_at": "2026-11-05T20:41:25Z"
+      "updated_at": "2026-11-18T14:01:44Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1487": {
       "assignees": [],
@@ -1599,7 +1599,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): preserve current activation when undoing creation",
-      "updated_at": "2026-11-07T21:17:54Z"
+      "updated_at": "2026-11-18T14:04:46Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1488": {
       "assignees": [],
@@ -1651,7 +1651,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(capture): count pictures of narrow parked items",
-      "updated_at": "2026-11-07T21:17:54Z"
+      "updated_at": "2026-11-18T14:01:33Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1555": {
       "assignees": [],
@@ -1709,7 +1709,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): preserve associations when the target is missing",
-      "updated_at": "2026-11-12T22:29:22Z"
+      "updated_at": "2026-11-18T14:00:51Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1556": {
       "assignees": [],
@@ -1772,7 +1772,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): compare imported shortcuts by key combination",
-      "updated_at": "2026-11-13T08:59:04Z"
+      "updated_at": "2026-11-18T14:00:42Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1557": {
       "assignees": [],
@@ -1850,7 +1850,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): restore apply shortcuts when undoing deletion",
-      "updated_at": "2026-11-14T00:58:18Z"
+      "updated_at": "2026-11-18T14:04:47Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1570": {
       "assignees": [],
@@ -1912,14 +1912,14 @@
       "state": "merged",
       "status": [],
       "title": "fix(search): keep command shortcuts in their own window",
-      "updated_at": "2026-11-14T01:35:37Z"
+      "updated_at": "2026-11-18T14:06:21Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1571": {
       "assignees": [],
       "checks": [
         [
           "15368:build",
-          "in_progress"
+          "failure"
         ],
         [
           "15368:changes",
@@ -1940,6 +1940,10 @@
         [
           "15368:packages",
           "success"
+        ],
+        [
+          "15368:sonarqube",
+          "skipped"
         ],
         [
           "15368:static_analysis",
@@ -1985,7 +1989,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(menubar): cancel section rehides when presentation closes",
-      "updated_at": "2026-11-14T01:41:45Z"
+      "updated_at": "2026-11-18T14:03:56Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1572": {
       "assignees": [],
@@ -2052,14 +2056,14 @@
       "state": "merged",
       "status": [],
       "title": "fix(profiles): compare effective display settings in previews",
-      "updated_at": "2026-11-14T01:32:25Z"
+      "updated_at": "2026-11-18T14:06:20Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1573": {
       "assignees": [],
       "checks": [
         [
           "15368:build",
-          "in_progress"
+          "success"
         ],
         [
           "15368:changes",
@@ -2079,6 +2083,10 @@
         ],
         [
           "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
           "success"
         ],
         [
@@ -2110,7 +2118,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(search): refresh candidates after external item renames",
-      "updated_at": "2026-11-14T01:39:31Z"
+      "updated_at": "2026-11-18T14:04:13Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1574": {
       "assignees": [],
@@ -2175,7 +2183,7 @@
       "state": "merged",
       "status": [],
       "title": "test(ax): verify parallel reads without a timing threshold",
-      "updated_at": "2026-11-14T00:57:45Z"
+      "updated_at": "2026-11-18T14:00:31Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1575": {
       "assignees": [],
@@ -2237,7 +2245,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(menubar): honor disabled rehide for pending actions",
-      "updated_at": "2026-11-14T03:02:46Z"
+      "updated_at": "2026-11-18T14:03:42Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1576": {
       "assignees": [],
@@ -2303,7 +2311,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(items): keep restored MenuBarAgent identities unique",
-      "updated_at": "2026-11-14T03:18:10Z"
+      "updated_at": "2026-11-18T14:03:33Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1577": {
       "assignees": [],
@@ -2364,7 +2372,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(menubar): keep manual Zen Mode off while a source keeps asking",
-      "updated_at": "2026-11-14T03:50:45Z"
+      "updated_at": "2026-11-18T14:03:26Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1578": {
       "assignees": [],
@@ -2430,7 +2438,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(items): restore the pointer when a click is cancelled",
-      "updated_at": "2026-11-14T04:19:14Z"
+      "updated_at": "2026-11-18T14:03:18Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1579": {
       "assignees": [],
@@ -2492,7 +2500,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(settings): clear per-Space looks on reset all settings",
-      "updated_at": "2026-11-14T04:20:14Z"
+      "updated_at": "2026-11-18T14:03:08Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1580": {
       "assignees": [],
@@ -2558,7 +2566,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(ax): give a replaced helper a fresh run of timeouts",
-      "updated_at": "2026-11-14T04:24:42Z"
+      "updated_at": "2026-11-18T14:03:01Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1581": {
       "assignees": [],
@@ -2619,7 +2627,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(widgets): read Mach CPU tick counters as unsigned",
-      "updated_at": "2026-11-14T04:26:35Z"
+      "updated_at": "2026-11-18T14:06:16Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1582": {
       "assignees": [],
@@ -2686,7 +2694,7 @@
       "state": "merged",
       "status": [],
       "title": "test(settings): render and work the General, Tools, Visibility and Advanced sections",
-      "updated_at": "2026-11-14T06:01:07Z"
+      "updated_at": "2026-11-18T14:04:51Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1584": {
       "assignees": [],
@@ -2720,7 +2728,7 @@
       "state": "merged",
       "status": [],
       "title": "test(settings): render and work the pages directly under SettingsPanes",
-      "updated_at": "2026-11-14T06:17:38Z"
+      "updated_at": "2026-11-18T14:11:37Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1586": {
       "assignees": [],
@@ -2792,7 +2800,7 @@
       "state": "merged",
       "status": [],
       "title": "test(settings): render and work the Layout page and its sections",
-      "updated_at": "2026-11-14T06:04:44Z"
+      "updated_at": "2026-11-18T14:04:50Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1587": {
       "assignees": [],
@@ -2858,7 +2866,7 @@
       "state": "merged",
       "status": [],
       "title": "test(settings): draw the Displays confirmation buttons",
-      "updated_at": "2026-11-14T06:05:26Z"
+      "updated_at": "2026-11-18T14:04:52Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1591": {
       "assignees": [],
@@ -2953,7 +2961,7 @@
       "state": "merged",
       "status": [],
       "title": "fix: five small fixes for Profiles off, the Thaw Bar rehide and release-item",
-      "updated_at": "2026-11-15T02:02:15Z"
+      "updated_at": "2026-11-18T14:04:55Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1609": {
       "assignees": [],
@@ -3019,7 +3027,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(menubar): cancel focus rehide after a delayed menu check",
-      "updated_at": "2026-11-16T06:36:40Z"
+      "updated_at": "2026-11-18T14:04:56Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1628": {
       "assignees": [],
@@ -3091,7 +3099,7 @@
       "state": "merged",
       "status": [],
       "title": "fix(menubar): keep items open when the pointer returns during rehide",
-      "updated_at": "2026-11-18T00:44:49Z"
+      "updated_at": "2026-11-18T14:04:59Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1634": {
       "assignees": [],
