@@ -3081,12 +3081,72 @@
           5938814582,
           "COMMENTED",
           "2026-11-17T12:56:31Z"
+        ],
+        [
+          5949080974,
+          "APPROVED",
+          "2026-11-18T00:44:35Z"
         ]
       ],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "fix(menubar): keep items open when the pointer returns during rehide",
-      "updated_at": "2026-11-17T13:00:24Z"
+      "updated_at": "2026-11-18T00:44:49Z"
+    },
+    "https://github.com/thaw-app/Thaw/pull/1634": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:build",
+          "in_progress"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "in_progress"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ]
+      ],
+      "comments": 3,
+      "draft": false,
+      "head": "eb13dbca7dd2fb4c197e5ce3d6311a62d5366eb6",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(cli): exit successfully for explicit help requests",
+      "updated_at": "2026-11-18T01:36:54Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
@@ -3107,6 +3167,6 @@
       "updated_at": "2026-11-06T06:54:18Z"
     }
   },
-  "last_successful_check_date": "2026-11-17",
+  "last_successful_check_date": "2026-11-18",
   "version": 1
 }
