@@ -3097,8 +3097,12 @@
       "assignees": [],
       "checks": [
         [
+          "12526:SonarCloud Code Analysis",
+          "success"
+        ],
+        [
           "15368:build",
-          "in_progress"
+          "success"
         ],
         [
           "15368:changes",
@@ -3118,35 +3122,50 @@
         ],
         [
           "15368:packages",
-          "in_progress"
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
         ],
         [
           "15368:static_analysis",
           "success"
         ],
         [
-          "2749804:Strix Security Review",
+          "347564:CodeRabbit",
           "success"
         ],
         [
-          "347564:CodeRabbit",
+          "57789:SonarCloud",
           "success"
         ]
       ],
-      "comments": 3,
+      "comments": 4,
       "draft": false,
-      "head": "eb13dbca7dd2fb4c197e5ce3d6311a62d5366eb6",
+      "head": "b0065dc29072e04105e0d60b3deeb59fae05c3e1",
       "kind": "PR",
       "labels": [
         "fix",
         "test"
       ],
       "review_comments": 0,
-      "reviews": [],
-      "state": "open",
+      "reviews": [
+        [
+          5949982970,
+          "APPROVED",
+          "2026-11-18T02:33:22Z"
+        ],
+        [
+          5949984597,
+          "APPROVED",
+          "2026-11-18T02:33:35Z"
+        ]
+      ],
+      "state": "merged",
       "status": [],
       "title": "fix(cli): exit successfully for explicit help requests",
-      "updated_at": "2026-11-18T01:36:54Z"
+      "updated_at": "2026-11-18T03:15:20Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
