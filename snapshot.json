@@ -3175,6 +3175,73 @@
       "title": "fix(cli): exit successfully for explicit help requests",
       "updated_at": "2026-11-18T03:15:20Z"
     },
+    "https://github.com/thaw-app/Thaw/pull/1656": {
+      "assignees": [],
+      "checks": [
+        [
+          "12526:SonarCloud Code Analysis",
+          "success"
+        ],
+        [
+          "15368:build",
+          "success"
+        ],
+        [
+          "15368:changes",
+          "success"
+        ],
+        [
+          "15368:dependency-sca",
+          "skipped"
+        ],
+        [
+          "15368:lockfiles",
+          "success"
+        ],
+        [
+          "15368:metadata",
+          "success"
+        ],
+        [
+          "15368:packages",
+          "success"
+        ],
+        [
+          "15368:sonarqube",
+          "success"
+        ],
+        [
+          "15368:static_analysis",
+          "success"
+        ],
+        [
+          "2749804:Strix Security Review",
+          "success"
+        ],
+        [
+          "347564:CodeRabbit",
+          "success"
+        ],
+        [
+          "57789:SonarCloud",
+          "success"
+        ]
+      ],
+      "comments": 4,
+      "draft": false,
+      "head": "4d49c60674a8aca1eccbac7521fda2ab41520afa",
+      "kind": "PR",
+      "labels": [
+        "fix",
+        "test"
+      ],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "fix(cli): reject empty setting names in assignments",
+      "updated_at": "2026-11-19T00:50:10Z"
+    },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
       "comments": 0,
@@ -3194,6 +3261,6 @@
       "updated_at": "2026-11-06T06:54:18Z"
     }
   },
-  "last_successful_check_date": "2026-11-18",
+  "last_successful_check_date": "2026-11-19",
   "version": 1
 }
