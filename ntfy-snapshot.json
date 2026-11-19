@@ -3176,7 +3176,9 @@
       "updated_at": "2026-11-18T03:15:20Z"
     },
     "https://github.com/thaw-app/Thaw/pull/1656": {
-      "assignees": [],
+      "assignees": [
+        "Copilot"
+      ],
       "checks": [
         [
           "12526:SonarCloud Code Analysis",
@@ -3240,7 +3242,7 @@
       "state": "open",
       "status": [],
       "title": "fix(cli): reject empty setting names in assignments",
-      "updated_at": "2026-11-19T00:50:10Z"
+      "updated_at": "2026-11-19T16:02:45Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
