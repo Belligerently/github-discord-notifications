@@ -3181,12 +3181,8 @@
       ],
       "checks": [
         [
-          "12526:SonarCloud Code Analysis",
-          "success"
-        ],
-        [
           "15368:build",
-          "success"
+          "in_progress"
         ],
         [
           "15368:changes",
@@ -3209,40 +3205,34 @@
           "success"
         ],
         [
-          "15368:sonarqube",
-          "success"
-        ],
-        [
           "15368:static_analysis",
-          "success"
-        ],
-        [
-          "2749804:Strix Security Review",
           "success"
         ],
         [
           "347564:CodeRabbit",
           "success"
-        ],
-        [
-          "57789:SonarCloud",
-          "success"
         ]
       ],
       "comments": 4,
       "draft": false,
-      "head": "4d49c60674a8aca1eccbac7521fda2ab41520afa",
+      "head": "71e5c3c21fe4258839e5e30e563ffeaf9cb459d6",
       "kind": "PR",
       "labels": [
         "fix",
         "test"
       ],
       "review_comments": 0,
-      "reviews": [],
+      "reviews": [
+        [
+          6003707475,
+          "DISMISSED",
+          "2026-11-21T07:04:50Z"
+        ]
+      ],
       "state": "open",
       "status": [],
       "title": "fix(cli): reject empty setting names in assignments",
-      "updated_at": "2026-11-19T16:02:45Z"
+      "updated_at": "2026-11-21T07:09:05Z"
     },
     "https://github.com/voxa-org/Voxa/issues/40": {
       "assignees": [],
