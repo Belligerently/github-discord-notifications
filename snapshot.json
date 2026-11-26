@@ -291,6 +291,66 @@
       "title": "Keybinding controls can't be activated with the keyboard",
       "updated_at": "2026-11-10T14:43:13Z"
     },
+    "https://github.com/smallprimitives/byte_batcher/pull/1": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (ruby)",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "57789:CodeQL",
+          "success"
+        ]
+      ],
+      "comments": 1,
+      "draft": true,
+      "head": "e4fb1f1da1328dabc3b902388e1ba897e106927b",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "open",
+      "status": [],
+      "title": "Add the byte-limited packer, JSON, and NDJSON",
+      "updated_at": "2026-11-26T18:52:22Z"
+    },
     "https://github.com/storytold/craft-launcher/pull/616": {
       "assignees": [],
       "checks": [
