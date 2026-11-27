@@ -770,10 +770,10 @@
       "labels": [],
       "review_comments": 0,
       "reviews": [],
-      "state": "open",
+      "state": "merged",
       "status": [],
       "title": "Prepare taskfence v0.1.0 for release",
-      "updated_at": "2026-11-27T02:09:50Z"
+      "updated_at": "2026-11-27T12:53:13Z"
     },
     "https://github.com/storytold/craft-launcher/pull/616": {
       "assignees": [],
