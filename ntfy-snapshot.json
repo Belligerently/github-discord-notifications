@@ -340,16 +340,440 @@
         ]
       ],
       "comments": 1,
-      "draft": true,
+      "draft": false,
       "head": "e4fb1f1da1328dabc3b902388e1ba897e106927b",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Add the byte-limited packer, JSON, and NDJSON",
+      "updated_at": "2026-11-26T23:48:52Z"
+    },
+    "https://github.com/smallprimitives/byte_batcher/pull/2": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (ruby)",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "57789:CodeQL",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "7999f7ac0718446b879c1d02131fb251c7b2c966",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Prepare byte_batcher 0.1.0 for release",
+      "updated_at": "2026-11-26T23:52:46Z"
+    },
+    "https://github.com/smallprimitives/byte_batcher/pull/3": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (ruby)",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "57789:CodeQL",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "f1a014ef7cda0109ebfc6ae65547cd7d3063b2ff",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Publish verified gems to GitHub Packages on demand",
+      "updated_at": "2026-11-27T00:08:47Z"
+    },
+    "https://github.com/smallprimitives/byte_batcher/pull/4": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (ruby)",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "57789:CodeQL",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "efbe6d2f1d1ed1e794b3e6b555e5d8910a2fd0c2",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Add manually triggered RubyGems trusted publishing",
+      "updated_at": "2026-11-27T00:11:08Z"
+    },
+    "https://github.com/smallprimitives/keyed_coalescer/pull/1": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (ruby)",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "28082a6bb6d944e91921ed93a123c00c16e158fe",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Implement keyed coalescing for Ruby threads",
+      "updated_at": "2026-11-27T01:36:23Z"
+    },
+    "https://github.com/smallprimitives/keyed_coalescer/pull/2": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:Analyze (ruby)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (ruby)",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 3.4 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby 4.0 on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Ruby CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "57789:CodeQL",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "f05f1829cebfc0e6d764f6daddd4fb4e4802d992",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Prepare keyed_coalescer 0.1.0 for release",
+      "updated_at": "2026-11-27T01:41:13Z"
+    },
+    "https://github.com/smallprimitives/taskfence/pull/1": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (go)",
+          "success"
+        ],
+        [
+          "15368:Go 1.26.x on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.26.x on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.26.x on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.27.x on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.27.x on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.27.x on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Go CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "29110:.github/dependabot.yml",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "f93b9fb5d28cc2c83b48579ef88b41e12f47b164",
+      "kind": "PR",
+      "labels": [],
+      "review_comments": 0,
+      "reviews": [],
+      "state": "merged",
+      "status": [],
+      "title": "Implement task checkpoints and cancellable waits",
+      "updated_at": "2026-11-27T02:06:53Z"
+    },
+    "https://github.com/smallprimitives/taskfence/pull/2": {
+      "assignees": [],
+      "checks": [
+        [
+          "15368:Analyze (go)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (actions)",
+          "success"
+        ],
+        [
+          "15368:CodeQL (go)",
+          "success"
+        ],
+        [
+          "15368:Go 1.26.x on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.26.x on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.26.x on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.27.x on macos-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.27.x on ubuntu-latest",
+          "success"
+        ],
+        [
+          "15368:Go 1.27.x on windows-latest",
+          "success"
+        ],
+        [
+          "15368:Go CI",
+          "success"
+        ],
+        [
+          "15368:Scorecard analysis",
+          "success"
+        ],
+        [
+          "57789:CodeQL",
+          "success"
+        ]
+      ],
+      "comments": 0,
+      "draft": false,
+      "head": "f74b957506fe4d99fd02dbff71e28497e927444f",
       "kind": "PR",
       "labels": [],
       "review_comments": 0,
       "reviews": [],
       "state": "open",
       "status": [],
-      "title": "Add the byte-limited packer, JSON, and NDJSON",
-      "updated_at": "2026-11-26T18:52:22Z"
+      "title": "Prepare taskfence v0.1.0 for release",
+      "updated_at": "2026-11-27T02:09:50Z"
     },
     "https://github.com/storytold/craft-launcher/pull/616": {
       "assignees": [],
@@ -3325,6 +3749,6 @@
       "updated_at": "2026-11-06T06:54:18Z"
     }
   },
-  "last_successful_check_date": "2026-11-26",
+  "last_successful_check_date": "2026-11-27",
   "version": 1
 }
